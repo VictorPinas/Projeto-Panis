@@ -5,6 +5,10 @@ public class ProjetoPanis{
   Cliente = new Cliente();
   Pedido = new Pedido();
   
+  //Pedido como variavel de referência
+  // Pedido clientePedido
+  // a variável é indeterminada até um objeto pedido ser criado e associado a este
+  
   //Mostre ao cliente e quantos pães ele pediu
   System.out.println("Olá, você pediu " + pedido.quantidade);
   
