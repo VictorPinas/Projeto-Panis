@@ -7,26 +7,31 @@ public class Pedido{
   * 
   */
   public int quantidade;
-  public int tempo;
+  public long tempo;
   public Cliente pedido;
   
   // Construtores
   public Pedido(){
-    pedido = new Cliente(0,0);
+    entrega = new Cliente(0,0);
   }
-  public Pedido(Cliente p){
-    cliente = p;
+  public Pedido(Cliente c){
+    entrega = c;
   }
-  public Pedido(pedido, tempo){
-    
+  public Pedido(int tia, long tp){
+    entrega = new Cliente(0,0);
+    quantidade = qtia;
+    tempo = tp;
   }
-  public Pedido(pedido, quantidade, tempo){
-    
+  public Pedido(Cliente c, int qtia, long tp){
+    entrega = c;
+    quantidade = qtia;
+    tempo = tp;
   }
   
   //um método para entrega do pedido
-  public void entrega(int quantidade, tempo, entrega){
-    cliente.pedido = p;
+  public void entrega(int qtia, long tp){
+    entrega.qtia = qtia;
+    entrega.tp = tp;
   }
   
   //um método para calcular o tempo
