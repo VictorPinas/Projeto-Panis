@@ -6,9 +6,9 @@ public class Pedido{
   * tempo os pães ficarão prontos,
   * 
   */
-  public int quantidade;
-  public long tempo;
-  public Cliente pedido;
+  public int quantidade = 0;
+  public long tempo = 0;
+  public Cliente entrega;
   
   // Construtores
   public Pedido(){
