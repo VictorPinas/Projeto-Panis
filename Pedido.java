@@ -17,7 +17,7 @@ public class Pedido{
   public Pedido(Cliente c){
     entrega = c;
   }
-  public Pedido(int tia, long tp){
+  public Pedido(int qtia, long tp){
     entrega = new Cliente(0,0);
     quantidade = qtia;
     tempo = tp;
@@ -35,7 +35,7 @@ public class Pedido{
   }
   
   //um método para calcular o tempo
-  public /*Qual tipo?*/ getEnvio(){
+  public String getEnvio(){
     return entrega;
   }
 }

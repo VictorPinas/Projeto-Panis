@@ -4,15 +4,12 @@ public class Cliente{
   * e o pedido com a quantidade de pães
   */
   
-  private nome
-  private endereco
-  private telefone
-  
-  public pedido;
-  public tempo;
+  public int quantidade = 0;
+  public long tempo = 0;
   
   //construtor do cliente
-  public Cliente(pedido, tempo){
-    
+  public Cliente(int paes, long espera){
+    quantidade = paes;
+    tempo = espera;
   }
 }
