@@ -35,8 +35,7 @@ public class Pedido{
   }
   
   //um método para calcular o tempo
-  public int getTempo(){
-    // preciso criar um código especifico para isso
-    // não é tão simples quanto calcular uma área
+  public /*Qual tipo?*/ getEnvio(){
+    return entrega;
   }
 }
