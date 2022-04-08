@@ -1,3 +1,3 @@
-public class Entrega{
-  //Utilizar switch
+class Entrega implements Pedido{
+
 }
