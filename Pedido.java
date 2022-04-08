@@ -1,41 +1,22 @@
-public class Pedido{
-  /*O pedido possui qual cliente
-  * e a quantidade de pães,
-  * o horário de entrega,
-  * um crônometro de quanto
-  * tempo os pães ficarão prontos,
-  * 
+interface Pedido{
+  /*Interface de pedido
+  * os métodos aqui definidos 
+  * serão implementeados
+  * por entrega
   */
-  public int quantidade = 0;
-  public long tempo = 0;
-  public Cliente entrega;
   
-  // Construtores
-  public Pedido(){
-    entrega = new Cliente(0,0);
-  }
-  public Pedido(Cliente c){
-    entrega = c;
-  }
-  public Pedido(int qtia, long tp){
-    entrega = new Cliente(0,0);
-    quantidade = qtia;
-    tempo = tp;
-  }
-  public Pedido(Cliente c, int qtia, long tp){
-    entrega = c;
-    quantidade = qtia;
-    tempo = tp;
-  }
-  
-  //um método para entrega do pedido
-  public void entrega(int qtia, long tp){
-    entrega.qtia = qtia;
-    entrega.tp = tp;
-  }
-  
-  //um método para calcular o tempo
-  public String getEnvio(){
-    return entrega;
-  }
+ //Recebe pedido
+ void receberPedido(boolean pedido){
+   pedido = false;
+ }
+ 
+ //Computa quantidade de pães
+ void calcularQuantia(int quantia);
+ 
+ //Tempo de entrega
+ //Definir método de cálculo
+ void calcularTempo();
+ 
+ //Confirmação de recebimentos
+ void recebimentoPaes();
 }
