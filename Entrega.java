@@ -1,3 +1,0 @@
-class Entrega implements Pedido{
-
-}
