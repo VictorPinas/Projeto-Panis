@@ -18,7 +18,7 @@ public class Quantidade{
   
   //Um método para processar o pedido
   public void processar(String m,String s){
-    tempo.m = m;
+    
     tempo.s = s;
   }
   

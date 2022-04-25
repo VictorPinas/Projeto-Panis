@@ -1,10 +1,4 @@
-interface Pedido{
-  /*Interface de pedido
-  * os métodos aqui definidos 
-  * serão implementeados
-  * por entrega
-  */
-  
+public class Pedido{  
  //Recebe pedido
  void receberPedido(boolean pedido){
    pedido = false;

@@ -12,7 +12,7 @@ public class Tempo{
   }
   // construtor
   public Tempo(String m,String s){
-    m = " min";
-    s = " seg";
+    String tempo = new Tempo();
+    String tempo = new Tempo();
   }
 }
